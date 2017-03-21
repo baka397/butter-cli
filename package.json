@@ -1,0 +1,28 @@
+{
+  "name": "butter-cli",
+  "version": "1.0.0",
+  "description": "Butter cli is a cli(Command-line interface) tool for initializing node project with template",
+  "preferGlobal": true,
+  "bin": {
+    "butter-cli":"bin/butter-init" 
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout 200000",
+    "test-cov": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baka397/butter-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "butter"
+  ],
+  "author": "bakajinsei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baka397/butter-cli/issues"
+  },
+  "homepage": "https://github.com/baka397/butter-cli#readme"
+}
