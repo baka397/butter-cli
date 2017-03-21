@@ -3,7 +3,7 @@ Butter Cli
 
 关于本项目(About)
 ---------
-Butter Cli是一个使用模板初始化node项目的命令行工具
+Butter Cli是一个使用模板初始化node项目的命令行工具  
 Butter cli is a cli(Command-line interface) tool for initializing node project with template
 
 构建状态(Build status)
