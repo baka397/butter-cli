@@ -31,7 +31,7 @@ help();
 /**
  * Build start
  */
-const rawName = program.args[1];
+const rawName = program.args[0];
 if(!rawName) return;
 const to = path.resolve(rawName);
 if (fs.existsSync(to)) {
@@ -39,7 +39,7 @@ if (fs.existsSync(to)) {
         type: 'confirm',
         message: '目标文件夹已存在,是否继续?\nTarget directory exists. Continue?',
         name: 'ok'
-    }], function (answers) {
+    }]).then(function(answers){
         if (answers.ok) {
             init(to);
         }
