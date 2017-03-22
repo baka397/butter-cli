@@ -1,6 +1,6 @@
 {
   "name": "butter-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Butter cli is a cli(Command-line interface) tool for initializing node project with template",
   "preferGlobal": true,
   "bin": {
