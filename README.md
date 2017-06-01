@@ -12,10 +12,10 @@ Butter cli is a cli(Command-line interface) tool for initializing node project w
 [![David deps][david-image]][david-url]
 [![node version][node-image]][node-url]
 
-[travis-image]: https://img.shields.io/travis/baka397/Orc-Engine/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/baka397/Orc-Engine
-[david-image]: https://img.shields.io/david/baka397/Orc-Engine.svg?style=flat-square
-[david-url]: https://david-dm.org/baka397/Orc-Engine
+[travis-image]: https://img.shields.io/travis/baka397/butter-cli/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/baka397/butter-cli
+[david-image]: https://img.shields.io/david/baka397/butter-cli.svg?style=flat-square
+[david-url]: https://david-dm.org/baka397/butter-cli
 [node-image]: https://img.shields.io/badge/node.js-%3E=_4-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 
@@ -39,9 +39,9 @@ butter-cli
 
 测试(Test)
 ---------
-## 单元测试(Unit test)
 ```
 npm test
+npm run test-cov
 ```
 
 许可协议(License)
